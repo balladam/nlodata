@@ -76,7 +76,7 @@ def perform_search(selected_column, entered_text ):
 def export_to_csv(target_data):
     print(f"OpticsFunctions.export_to_csv()")
     
-    file_name = 'output/' + datetime.now().strftime("OpticsExport__%d-%m-%Y_%H-%M-%S")+".csv"
+    file_name = 'OUTPUT/' + datetime.now().strftime("OpticsExport__%d-%m-%Y_%H-%M-%S")+".csv"
     target_data.to_csv(file_name, index=False)  
 
     print(f"CSV exported to " + file_name)
