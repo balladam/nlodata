@@ -13,8 +13,8 @@ from IPython.display import display, clear_output
 # import plotly.graph_objects as go
 
 # Globals
-input_file_path = "input/Table5B_For_Search.xlsx"
-output_file_path = "output/OUTPUTFILE.xlsx"
+input_file_path = "INPUT/Table5B_For_Search.xlsx"
+output_file_path = "OUTPUT/OUTPUTFILE.xlsx"
 
 search_text = ""
 
